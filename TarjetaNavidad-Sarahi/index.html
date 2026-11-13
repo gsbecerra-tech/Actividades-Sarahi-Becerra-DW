@@ -29,7 +29,7 @@ se adapte a diferentes dispositivos-->
      <img src="cover.nav.jpg" alt="árbol de navidad" class="cover-img">
     </div>
     <h1 class="cover-title">Feliz Navidad 2026 🎄</h1>
-    <p class="cover-subtitle">Con todo mi cariño, Felices Fiestas</p>
+    <p class="cover-subtitle">Con todo mi cariño, Felices Fiestas!!</p>
     <button id="btn-enter" class="btn-primary">
       <span class="btn-text">Click </span>
     </button>
@@ -40,7 +40,7 @@ se adapte a diferentes dispositivos-->
     <div class="photo-circle">
       <img class="photo-img" loading="lazy" src="libronav.jpg" alt="libro">
     </div>
-    <p class="msg-text">En esta Navidad te deseo mucha felicidad y magia 🎅🏻🎁</p>
+    <p class="msg-text">🎄 ¡En esta Navidad te deseo mucha felicidad y magia! 🎅🏻</p>
     <button id="btn-next-1" class="btn-secondary">
       <span class="btn-text">Siguiente</span>
     </button>
@@ -48,7 +48,7 @@ se adapte a diferentes dispositivos-->
 
 <!-- Mensaje página 2-->
  <div class="page" id="pagina2">
-    <h2 class="gallery-title">Con mucho amor 🎆</h2>
+    <h2 class="gallery-title">Con mucho amor ✨</h2>
     <div class="gallery-grid">
      <div class="gallery-item gold-border">
       <img class="gallery-img" loading="lazy" src="img3.jpg" alt="auto">
@@ -63,6 +63,46 @@ se adapte a diferentes dispositivos-->
   
     <p class="gallery-caption">Que esta Navidad esté llena de amor, paz y momentos felices, te deso mucha alegría, salud y bendiciones para el próximo año.</p>
    </div>
+
+   <!-- Botón para revelar un mensaje -->
+    <div class="page" id="pagina3">
+    <div class="float-container float">
+     <span class="heart-emoji">🎅🏻</span>
+    </div>
+    <p class="msg-text">¿Listo para descubrir las sorpresas de Navidad?</p>
+    <button id="btn-reveal" class="btn-309ebc">
+      <span class="btn-text">Descubre tu mensaje de Santa Claus</span>
+    </button>
+   </div>
+
+   <!-- Mensaje Final-->
+    <div class="page" id="pagina4">
+    <div id="final-card" class="final-card">
+     <audio id="navidad-audio" src="audio.Nav.mp3"></audio>
+     <div class="photo-circle gold-border final-photo">
+      <img class="photo-img" loading="lazy" src="img6.jpg" alt="bota de navidad">
+     </div>
+     <h2 class="final-title">¡Felices Fiestas!</h2>
+     <p class="final-msg">¡Que esta Navidad esté llena de amor, paz y momentos felices!</p>
+     <button id="btn-audio-ebc" class="btn-heart">
+      <span id="ebc-audio-btn-text">🎁</span>
+     </button>
+    </div>
+    <div id="confetti-container" class="confetti-container"></div>
+   </div>
+
+   <!--Navegación de la tarjeta-->
+    <nav class="nav-container" aria-label="Navegación de páginas">
+    <button id="btn-prev" class="btn-nav" aria-label="Anterior">
+      <i data-lucide="chevron-left" class="icon-nav"></i>
+    </button>
+    <div id="dots" class="dots-container"></div>
+    <button id="btn-next" class="btn-nav" aria-label="Siguiente">
+      <i data-lucide="chevron-right" class="icon-nav"></i>
+    </button>
+   </nav>
+  </div>
+
 
 <script src="script.js"></script>
 </body>
